@@ -11,7 +11,7 @@ public class BaseTest {
 	@BeforeClass
 	public void Before() {
 		driver = new EdgeDriver();
-		driver.get("https://www.saucedemo.com/");
+		driver.get("https://www.saucedemo.com");
 		driver.manage().window().maximize();
 	}
 	@AfterClass
